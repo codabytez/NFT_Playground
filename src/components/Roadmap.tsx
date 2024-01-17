@@ -1,16 +1,34 @@
 import { FC } from "react";
 import roadmap from "../assets/roadmap.png";
+import roadmap2 from "../assets/roadmap2.png";
+import roadmap3 from "../assets/roadmap3.png";
 
 const Roadmap: FC = () => {
   return (
     <div className="flex max-w-[1440px] h-[1004px] items-start">
       <div className="flex-1 flex h-[1004px] py-[203px] pr-[73px] pl-[95px] flex-col justify-center items-center border-black border border-l-0 bg-brand-purple">
-        <div className="flex w-[569px] h-[597px] flex-col justify-end items-center shrink-0 border-2 border-black bg-[#141414]">
-          <img
-            src={roadmap}
-            alt="roadmap"
-            className="w-full h-full object-cover"
-          />
+        <div className="flex w-[569px] h-[597px] flex-col justify-center items-start shrink-0 relative">
+          <div className="w-[417px] h-[554px] border border-black absolute -right-10">
+            <img
+              src={roadmap3}
+              alt="roadmap3"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-[571px] h-[609px] border border-black absolute -right-2">
+            <img
+              src={roadmap2}
+              alt="roadmap2"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-[550px] h-[709px] border border-black absolute">
+            <img
+              src={roadmap}
+              alt="roadmap"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
       </div>
 
