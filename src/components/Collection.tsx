@@ -36,7 +36,10 @@ const Collection: FC = () => {
   ];
 
   return (
-    <div className="w-[1438px] h-[1065px] mx-auto border-b border-black px-[90px] py-20 flex flex-col justify-center items-center gap-16">
+    <div
+      id="auction"
+      className="w-[1438px] h-[1065px] mx-auto border-b border-black px-[90px] py-20 flex flex-col justify-center items-center gap-16"
+    >
       <div className="flex flex-col w-[697px] gap-3.5 items-center justify-center">
         <h2 className="text-[#121212] text-center font-poppins text-[46px] leading-[56px] tracking-[-0.92px]">
           Discover the most popular NFTs

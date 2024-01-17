@@ -8,7 +8,10 @@ import outreach from "../assets/outreach.png";
 
 const FeaturedArt: FC = () => {
   return (
-    <div className="flex w-[1440px] p-20 flex-col justify-center items-center gap-6 mx-auto border border-black bg-cream-background">
+    <div
+      id="discover"
+      className="flex w-[1440px] p-20 flex-col justify-center items-center gap-6 mx-auto border border-black bg-cream-background"
+    >
       <div className="flex items-center justify-between gap-6 self-stretch">
         <h4 className="self-stretch text-5xl text-blue-gray-900 font-poppins">
           Featured art categories

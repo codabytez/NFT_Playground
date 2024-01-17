@@ -27,7 +27,10 @@ const Blog: FC = () => {
   ];
 
   return (
-    <div className="h-[628px] border-b border-black w-[1440px] flex flex-col gap-16 justify-center">
+    <div
+      id="community"
+      className="h-[628px] border-b border-black w-[1440px] flex flex-col gap-16 justify-center"
+    >
       <div className="w-[1236.5px] mx-auto h-[91px] flex justify-between items-center">
         <div className="flex flex-col gap-2">
           <h3 className="text-[#121212] font-poppins text-5xl">

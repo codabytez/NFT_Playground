@@ -11,10 +11,30 @@ const Navbar: FC = () => {
       </div>
 
       <div className="flex gap-8">
-        <p className="font-courier text-xl text-[#121212]">Auction</p>
-        <p className="font-courier text-xl text-[#121212]">Roadmap</p>
-        <p className="font-courier text-xl text-[#121212]">Discover</p>
-        <p className="font-courier text-xl text-[#121212]">Community</p>
+        <a
+          href="#auction"
+          className="font-courier text-xl text-[#121212] transition-all duration-300 hover:text-brand-purple"
+        >
+          Auction
+        </a>
+        <a
+          href="#roadmap"
+          className="font-courier text-xl text-[#121212] transition-all duration-300 hover:text-brand-purple"
+        >
+          Roadmap
+        </a>
+        <a
+          href="#discover"
+          className="font-courier text-xl text-[#121212] transition-all duration-300 hover:text-brand-purple"
+        >
+          Discover
+        </a>
+        <a
+          href="#community"
+          className="font-courier text-xl text-[#121212] transition-all duration-300 hover:text-brand-purple"
+        >
+          Community
+        </a>
       </div>
       <Button>X-connect your wallet</Button>
     </div>

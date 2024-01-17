@@ -5,7 +5,7 @@ import roadmap3 from "../assets/roadmap3.png";
 
 const Roadmap: FC = () => {
   return (
-    <div className="flex max-w-[1440px] h-[1004px] items-start">
+    <div id="roadmap" className="flex max-w-[1440px] h-[1004px] items-start">
       <div className="flex-1 flex h-[1004px] py-[203px] pr-[73px] pl-[95px] flex-col justify-center items-center border-black border border-l-0 bg-brand-purple">
         <div className="flex w-[569px] h-[597px] flex-col justify-center items-start shrink-0 relative">
           <div className="w-[417px] h-[554px] border border-black absolute -right-10">

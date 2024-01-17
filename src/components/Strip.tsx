@@ -24,7 +24,7 @@ const Strip: FC<{
 
   return (
     <motion.div
-      className={`flex py-6 items-center ${
+      className={`flex py-6 select-none items-center ${
         bg === "purple" ? "bg-brand-purple" : "bg-contrast-yellow"
       } overflow-hidden`}
       variants={stripVariants}
