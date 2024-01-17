@@ -48,22 +48,22 @@ const Collection: FC = () => {
       </div>
 
       <div className="inline-flex gap-6 justify-center items-center">
-        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:text-white transition-all duration-300">
+        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Popular
         </button>
-        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:text-white transition-all duration-300">
+        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Brizzy
         </button>
-        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:text-white transition-all duration-300">
+        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Abstract
         </button>
-        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:text-white transition-all duration-300">
+        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Gaming
         </button>
-        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:text-white transition-all duration-300">
+        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Avatar
         </button>
-        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:text-white transition-all duration-300">
+        <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Photography
         </button>
         <button

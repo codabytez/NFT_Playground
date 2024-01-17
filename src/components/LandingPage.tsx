@@ -7,7 +7,6 @@ import FeaturedArt from "./FeaturedArt";
 import HotCollection from "./HotCollection";
 import Collection from "./Collection";
 import Blog from "./Blog";
-import Cta from "./Cta";
 import Footer from "./Footer";
 import Strip from "./Strip";
 
@@ -23,10 +22,9 @@ const LandingPage: FC = () => {
       <FeaturedArt />
       <Collection />
       <HotCollection />
-      <Strip bg="yellow" />
-      <Blog />
       <Strip />
-      <Cta />
+      <Blog />
+      <Strip bg="yellow" />
       <Footer />
     </div>
   );

@@ -19,10 +19,10 @@ const Button: FC<{
     primary:
       "border-2 border-black bg-brand-purple text-white shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000] hover:text-black hover:bg-contrast-yellow transition-all duration-300 ease-in-out active:shadow-none active:text-black active:bg-contrast-yellow",
     secondary:
-      "bg-brand-purple text-white border border-[#121212] hover:bg-[#121212] hover:text-white transition-all duration-300 ease-in-out active:shadow-none active:text-white active:bg-[#121212]",
+      "bg-brand-purple text-white border border-[#121212] hover:bg-contrast-yellow hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-white active:bg-[#121212] shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000]",
     tertiary:
-      "bg-white text-[#121212] border-2 border-[#121212] hover:bg-[#121212] hover:text-white transition-all duration-300 ease-in-out active:shadow-none active:text-white active:bg-[#121212]",
-    art: "bg-contrast-yellow text-black border border-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-black active:bg-white",
+      "bg-white text-[#121212] border-2 border-[#121212] hover:bg-contrast-yellow hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-white active:bg-[#121212] shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000]",
+    art: "bg-contrast-yellow text-black border border-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-black active:bg-white shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000]",
   };
 
   const sizeClass = {
