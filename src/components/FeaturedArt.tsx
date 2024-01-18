@@ -16,9 +16,10 @@ const FeaturedArt: FC = () => {
         <h4 className="self-stretch text-5xl text-blue-gray-900 font-poppins">
           Featured art categories
         </h4>
-        <p className="flex py-3 px-4 justify-center items-center text-brand-purple font-courier text-xl">
+
+        <button className="text-brand-purple font-courier text-xl hover:text-black px-4 py-3 transition-all duration-300">
           View All Categories
-        </p>
+        </button>
       </div>
 
       <div className="flex gap-6 self-stretch">

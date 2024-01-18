@@ -171,7 +171,7 @@ const Footer: FC = () => {
           <div className="w-[243px] h-[60px] inline-flex py-4 px-6 justify-center items-center border border-black bg-brand-purple gap-8 shadow-[4px_4px_0px_0px_#000]">
             <input
               placeholder="Enter your email"
-              className="border-none outline-none bg-transparent text-white w-[150px]"
+              className="border-none outline-none bg-transparent text-[#E0C8FF] w-[150px] placeholder:text-[#E0C8FF]"
             />
             <svg
               xmlns="http://www.w3.org/2000/svg"
