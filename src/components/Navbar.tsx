@@ -36,7 +36,7 @@ const Navbar: FC = () => {
           Community
         </a>
       </div>
-      <Button>X-connect your wallet</Button>
+      <Button size="sm">X-connect your wallet</Button>
     </div>
   );
 };
