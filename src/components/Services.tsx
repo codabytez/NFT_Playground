@@ -93,7 +93,7 @@ const Services: FC = () => {
             </p>
           </div>
         </div>
-        <Button variant="secondary">Drive in</Button>
+        <Button variant="secondary">Connect</Button>
       </div>
     </div>
   );

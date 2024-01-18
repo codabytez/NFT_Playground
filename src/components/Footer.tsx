@@ -171,7 +171,7 @@ const Footer: FC = () => {
           <div className="w-[243px] h-[60px] inline-flex py-4 px-6 justify-center items-center border border-black bg-brand-purple gap-8 shadow-[4px_4px_0px_0px_#000]">
             <input
               placeholder="Enter your email"
-              className="border-none outline-none bg-transparent text-white opacity-50 w-[150px]"
+              className="border-none outline-none bg-transparent text-white w-[150px]"
             />
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +194,7 @@ const Footer: FC = () => {
       </div>
 
       <div className="flex flex-col gap-4 items-center self-stretch opacity-60">
-        <span className="flex w-[1440px] justify-center items-center border border-white opacity-80" />
+        <span className="flex w-[1440px] justify-center items-center border border-white opacity-20" />
 
         <p className="text-white font-courier">
           © {new Date().getFullYear()} cooked by MK3DITS served to BYTEZ. All

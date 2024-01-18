@@ -45,8 +45,7 @@ const Collection: FC = () => {
           Discover the most popular NFTs
         </h2>
         <p className="w-[549px] text-[#1F1F1F] text-center font-courier text-xl">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+          Dive in into the world of futuristic explorations and high value nft
         </p>
       </div>
 
