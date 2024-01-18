@@ -33,12 +33,7 @@ const Services: FC = () => {
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]
             "
             >
-              <Server
-                color="#FFFB47"
-                title="server"
-                height="40px"
-                width="40px"
-              />
+              <Server color="#FFFB47" height="40px" width="40px" />
             </div>
 
             <p className="flex-[1_0_0] text-center text-blue-gray-900 font-courier text-xl">
@@ -51,12 +46,7 @@ const Services: FC = () => {
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-contrast-yellow shadow-[2px_3px_0px_0px_#000]
             "
             >
-              <Trophy
-                color="#9747FF"
-                title="server"
-                height="40px"
-                width="40px"
-              />
+              <Trophy color="#9747FF" height="40px" width="40px" />
             </div>
 
             <p className="flex-[1_0_0] text-center text-blue-gray-900 font-courier text-xl">
@@ -69,12 +59,7 @@ const Services: FC = () => {
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]
             "
             >
-              <ShieldCheckmark
-                color="#FFFB47"
-                title="server"
-                height="40px"
-                width="40px"
-              />
+              <ShieldCheckmark color="#FFFB47" height="40px" width="40px" />
             </div>
 
             <p className="flex-[1_0_0] text-center text-blue-gray-900 font-courier text-xl">
@@ -87,12 +72,7 @@ const Services: FC = () => {
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-contrast-yellow shadow-[2px_3px_0px_0px_#000]
             "
             >
-              <PieChart
-                color="#9747FF"
-                title="server"
-                height="40px"
-                width="40px"
-              />
+              <PieChart color="#9747FF" height="40px" width="40px" />
             </div>
 
             <p className="flex-[1_0_0] text-center text-blue-gray-900 font-courier text-xl">
@@ -105,12 +85,7 @@ const Services: FC = () => {
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]
             "
             >
-              <People
-                color="#FFFB47"
-                title="server"
-                height="40px"
-                width="40px"
-              />
+              <People color="#FFFB47" height="40px" width="40px" />
             </div>
 
             <p className="flex-[1_0_0] text-center text-blue-gray-900 font-courier text-xl">

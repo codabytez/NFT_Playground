@@ -197,7 +197,8 @@ const Footer: FC = () => {
         <span className="flex w-[1440px] justify-center items-center border border-white opacity-80" />
 
         <p className="text-white font-courier">
-          © {new Date().getFullYear()} by MK3DITS. All rights reserved.
+          © {new Date().getFullYear()} cooked by MK3DITS served to BYTEZ. All
+          rights reserved.
         </p>
       </div>
     </div>
