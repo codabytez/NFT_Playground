@@ -8,6 +8,31 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9747ff transparent;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #fffb47;
+  box-shadow: 2px 2px 0px #000;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9747ff;
+  border-radius: 0px;
+  box-shadow: 3px 3px 0px #000;
+  transition: background-color 0.3s ease;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,

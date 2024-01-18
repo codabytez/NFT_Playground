@@ -197,8 +197,21 @@ const Footer: FC = () => {
         <span className="flex w-[1440px] justify-center items-center border border-white opacity-20" />
 
         <p className="text-white font-courier">
-          © {new Date().getFullYear()} cooked by MK3DITS served to BYTEZ. All
-          rights reserved.
+          © {new Date().getFullYear()} cooked by{" "}
+          <a
+            href="https://x.com/mk3dits"
+            className="text-white font-courier text-sm font-extralight underline transition-all hover:text-[#FFFB47] hover:cursor-pointer hover:opacity-80"
+          >
+            MK3DITS
+          </a>{" "}
+          served to{" "}
+          <a
+            href="https://x.com/codabytez"
+            className="text-white font-courier text-sm font-extralight underline transition-all hover:text-[#FFFB47] hover:cursor-pointer hover:opacity-80"
+          >
+            BYTEZ
+          </a>
+          . All rights reserved.
         </p>
       </div>
     </div>
