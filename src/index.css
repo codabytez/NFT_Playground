@@ -33,6 +33,10 @@ html {
   transition: background-color 0.3s ease;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,

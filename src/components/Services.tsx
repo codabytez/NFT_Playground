@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import {
   Server,
   Trophy,
@@ -8,8 +8,20 @@ import {
 } from "react-ionicons";
 import Button from "./Button";
 import Strip from "./Strip";
+import { Modal } from "./Modal";
+import ConnectAccount from "./ConnectAccount";
 
 const Services: FC = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleModalOpen = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="h-[698px] self-stretch border border-black bg-cream-background flex flex-col justify-end py-20 relative">
       <div className="absolute -top-[120px]">
@@ -93,8 +105,13 @@ const Services: FC = () => {
             </p>
           </div>
         </div>
-        <Button variant="secondary">Connect</Button>
+        <Button variant="secondary" onClick={handleModalOpen}>
+          Connect
+        </Button>
       </div>
+      <Modal isOpen={isModalOpen} onClose={handleModalClose}>
+        <ConnectAccount />
+      </Modal>
     </div>
   );
 };

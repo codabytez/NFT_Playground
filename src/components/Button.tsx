@@ -5,7 +5,7 @@ const Button: FC<{
   onClick?: () => void;
   disabled?: boolean;
   className?: string;
-  variant?: "primary" | "secondary" | "tertiary" | "art";
+  variant?: "primary" | "secondary" | "tertiary" | "art" | 'success';
   size?: "xs" | "sm" | "md" | "lg";
 }> = ({
   children,
@@ -23,6 +23,7 @@ const Button: FC<{
     tertiary:
       "bg-white text-[#121212] border-2 border-[#121212] hover:bg-contrast-yellow hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-white active:bg-[#121212] shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000]",
     art: "bg-contrast-yellow text-black border border-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-black active:bg-white shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000]",
+    success: "bg-[#FFE1E1] text-black border border-[#FF8989] hover:bg-contrast-yellow hover:text-black transition-all duration-300 ease-in-out active:shadow-none active:text-black active:bg-contrast-yellow shadow-[2px_2px_0px_0px_#FF8989] hover:shadow-[4px_4px_0px_0px_#FF8989]",
   };
 
   const sizeClass = {
