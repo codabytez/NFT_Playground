@@ -1,8 +1,20 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import Logo from "./Logo";
 import Button from "./Button";
+import { Modal } from "./Modal";
+import ConnectAccount from "./ConnectAccount";
 
 const Navbar: FC = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleModalOpen = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className=" h-[82px] border-b border-black flex justify-between items-center px-10">
       <div className="flex items-center gap-2">
@@ -36,7 +48,12 @@ const Navbar: FC = () => {
           Community
         </a>
       </div>
-      <Button size="sm">X-connect your wallet</Button>
+      <Button size="sm" onClick={handleModalOpen}>
+        X-connect your wallet
+      </Button>
+      <Modal isOpen={isModalOpen} onClose={handleModalClose}>
+        <ConnectAccount />
+      </Modal>
     </div>
   );
 };
