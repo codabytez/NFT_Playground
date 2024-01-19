@@ -37,7 +37,7 @@ const Services: FC = () => {
       </div>
       <div className="flex flex-col items-center gap-20">
         <h2 className="self-stretch text-5xl text-blue-gray-900 font-poppins text-center">
-          Our Services
+          Services you get when you’re connected
         </h2>
         <div className="flex w-[1058px] pb-7 justify-between gap-22">
           <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] ">

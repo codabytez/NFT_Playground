@@ -10,11 +10,10 @@ const Hero: FC = () => {
         <div className="inline-flex gap-12 flex-col">
           <div className="inline-flex gap-3 flex-col">
             <h1 className="w-[461px] text-white font-poppins text-[78px] font-medium leading-[88px] tracking-[-1.56px]">
-              Explore the works of the best artists
+              Explore NFT collections from the best artists
             </h1>
             <p className="text-white font-courier text-xl w-[409px]">
-              Discover a revolutionary digital art experience at our NFT
-              website.
+              Discover great digital art experience at our NFT Platform.
             </p>
           </div>
           <div>
