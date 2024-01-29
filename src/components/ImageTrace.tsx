@@ -9,9 +9,6 @@ const ImageTrace: FC = () => {
       height="538"
       viewBox="0 0 623 538"
       fill="none"
-      // initial={{ pathLength: 0, pathOffset: 1 }}
-      // animate={{ pathLength: 1, pathOffset: 0 }}
-      // transition={{ duration: 10, yoyo: Infinity }}
     >
       <mask
         id="path-1-outside-1_17_6106"

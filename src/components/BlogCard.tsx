@@ -7,7 +7,7 @@ const BlogCard: FC<{
   date: string;
 }> = ({ title, image, author, date }) => {
   return (
-    <div className="w-[400px] h-[341px] border border-black bg-white flex flex-col">
+    <div className="sm:w-[400px] sm:h-[341px] border border-black bg-white flex flex-col">
       <img
         src={image}
         alt={author}

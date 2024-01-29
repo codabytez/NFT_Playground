@@ -38,16 +38,16 @@ const HotCollection: FC = () => {
   ];
 
   return (
-    <div className="flex h-[512px] py-20 px-24 flex-col gap-11 border-b border-black">
+    <div className="flex min-h-[512px] py-20 px-4 sm:px-24 flex-col gap-11 border-b border-black">
       <div className="flex flex-col gap-2">
-        <h3 className="text-[#121212] font-poppins text-[46px] leading-[56px] tracking-[-0.92px]">
+        <h3 className="text-[#121212] font-poppins text-[40px] sm:text-[46px] leading-[56px] tracking-[-0.92px]">
           Most Popular Artists
         </h3>
         <p className="text-[#1F1F1F] font-courier text-xl">
           The most popular artists across the verse
         </p>
       </div>
-      <div className="flex justify-center items-center gap-6">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:flex-wrap">
         {hotNfts.map((nft, index) => (
           <HotNftCard key={index} {...nft} />
         ))}

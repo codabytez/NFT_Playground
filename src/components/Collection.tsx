@@ -38,18 +38,18 @@ const Collection: FC = () => {
   return (
     <div
       id="auction"
-      className="w-[1438px] h-[1065px] mx-auto border-b border-black px-[90px] py-20 flex flex-col justify-center items-center gap-16"
+      className="max-w-[1438px] min-h-[1065px] mx-auto border-b border-black px-5 lg:px-[90px] py-20 flex flex-col justify-center items-center gap-16"
     >
-      <div className="flex flex-col w-[697px] gap-3.5 items-center justify-center">
-        <h2 className="text-[#121212] text-center font-poppins text-[46px] leading-[56px] tracking-[-0.92px]">
+      <div className="flex flex-col w-full md:w-[697px] gap-3.5 items-center justify-center">
+        <h2 className="text-[#121212] text-center font-poppins text-[40px] sm:text-[46px] leading-[56px] tracking-[-0.92px]">
           Discover the most popular NFTs
         </h2>
-        <p className="w-[549px] text-[#1F1F1F] text-center font-courier text-xl">
+        <p className="md:w-[549px] text-[#1F1F1F] text-center font-courier text-xl">
           Dive in into the world of futuristic explorations and high value nft
         </p>
       </div>
 
-      <div className="inline-flex gap-6 justify-center items-center">
+      <div className="inline-flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center">
         <button className="flex py-3 px-6 justify-center items-center gap-3.5 border border-[#121212] text-[#121212] text-xl font-courier hover:bg-brand-purple hover:shadow-[4px_4px_0px_0px_#000] hover:text-white transition-all duration-300">
           Popular
         </button>
@@ -76,7 +76,7 @@ const Collection: FC = () => {
         </button>
       </div>
 
-      <div className="flex gap-6">
+      <div className="flex gap-6 flex-col flex-wrap lg:flex-row justify-center">
         {nftCards.map((nft, index) => (
           <NftCard key={index} {...nft} />
         ))}

@@ -143,8 +143,8 @@ const ConnectAccount: FC = () => {
 
       {!isConnecting && !connectionError && !isConnected && (
         <div>
-          <div className="flex w-[400px] items-center py-4 px-6 flex-col gap-6">
-            <div className="flex w-[352px] justify-between items-center bg-white rounded-t-[15px]">
+          <div className="flex w-340px sm:w-[400px] items-center py-4 px-6 flex-col gap-6">
+            <div className="flex w-[320px] sm:w-[352px] justify-between items-center bg-white rounded-t-[15px]">
               <p className="text-[#212121] font-mukta font-medium">
                 Choose Network
               </p>
@@ -188,7 +188,7 @@ const ConnectAccount: FC = () => {
                   );
                 })}
               {selectedNetwork && !isNetworkExpanded && (
-                <div className="flex gap-2.5 items-center w-[352px] bg-white">
+                <div className="flex gap-2.5 items-center w-[330px] sm:w-[352px] bg-white">
                   <img src={selectedNetwork.icon} alt={selectedNetwork.name} />
                   <p className="text-[#212121] text-xl font-poppins">
                     {selectedNetwork.fullName}
@@ -198,7 +198,7 @@ const ConnectAccount: FC = () => {
             </div>
           </div>
 
-          <div className="flex w-[400px] items-center py-4 px-6 flex-col gap-6">
+          <div className="flex w-[340px] sm:w-[400px] items-center py-4 px-6 flex-col gap-6">
             <div className="flex w-[352px] justify-between items-center bg-white mx-auto pb-6">
               <p className="text-[#212121] font-mukta font-medium">
                 Select Wallet

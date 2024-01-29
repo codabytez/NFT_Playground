@@ -5,7 +5,7 @@ import appstore from "../assets/appstore.png";
 const Footer: FC = () => {
   return (
     <div className="flex py-6 px-10 flex-col items-end gap-[75px] self-stretch bg-brand-purple">
-      <div className="flex justify-between items-start self-stretch">
+      <div className="flex flex-wrap flex-col md:flex-row justify-between gap-6 items-start self-stretch">
         <div className="flex flex-col gap-6 w-[177px] items-start">
           <h3 className="text-[#FFFB47] font-courier text-xl">Download App</h3>
           <div className="flex flex-col gap-2 self-stretch">
@@ -196,7 +196,7 @@ const Footer: FC = () => {
       <div className="flex flex-col gap-4 items-center self-stretch opacity-60">
         <span className="flex w-[1440px] justify-center items-center border border-white opacity-20" />
 
-        <p className="text-white font-courier">
+        <p className="text-white font-courier text-center">
           © {new Date().getFullYear()} cooked by{" "}
           <a
             href="https://x.com/mk3dits"

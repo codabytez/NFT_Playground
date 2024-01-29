@@ -7,8 +7,8 @@ const Connected: FC<{
   disconnect: () => void;
 }> = ({ wallet, disconnect }) => {
   return (
-    <div className="flex w-[400px] py-4 px-6 flex-col gap-6">
-      <div className="flex w-[354px] h-[106px] p-1 flex-col justify-center gap-2.5 border border-[#E0E0E0]">
+    <div className="flex w-[340px] sm:w-[400px] py-4 px-6 flex-col gap-6">
+      <div className="flex w-[330px] sm:w-[354px] h-[106px] p-1 flex-col justify-center gap-2.5 border border-[#E0E0E0]">
         <div className="flex items-center">
           <img
             src={walletOwner}
@@ -44,7 +44,7 @@ const Connected: FC<{
                 stroke-linecap="round"
               />
             </svg>
-            <p className="text-[#616161] text-sm p-2 font-poppins">
+            <p className="text-[#616161] text-xs sm:text-sm p-2 font-poppins">
               Copy address
             </p>
           </div>
@@ -84,14 +84,14 @@ const Connected: FC<{
                 stroke-linecap="round"
               />
             </svg>
-            <p className="text-[#616161] text-sm p-2 font-poppins">
+            <p className="text-[#616161] text-xs sm:text-sm p-2 font-poppins">
               View on explorer
             </p>
           </div>
         </div>
       </div>
       <div className="flex justify-between items-center self-stretch">
-        <p className="p-2.5 font-poppins text-sm text-[#212121] font-medium">
+        <p className="p-2.5 font-poppins text-xs sm:text-sm text-[#212121] font-medium">
           Connected with {wallet}
         </p>
         <Button variant="success" size="sm" onClick={() => disconnect()}>

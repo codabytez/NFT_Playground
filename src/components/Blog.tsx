@@ -29,11 +29,11 @@ const Blog: FC = () => {
   return (
     <div
       id="community"
-      className="h-[628px] border-b border-black w-[1440px] flex flex-col gap-16 justify-center"
+      className="min-h-[628px] border-b border-black max-w-[1440px] flex flex-col gap-16 justify-center py-10 px-4"
     >
-      <div className="w-[1236.5px] mx-auto h-[91px] flex justify-between items-center">
+      <div className="w-full max-w-[1236.5px] mx-auto min-h-[91px] flex flex-col md:flex-row justify-between md:items-center gap-6">
         <div className="flex flex-col gap-2">
-          <h3 className="text-[#121212] font-poppins text-5xl">
+          <h3 className="text-[#121212] font-poppins text-[40px] sm:text-5xl">
             All about NFT World
           </h3>
           <p className="text-[#1F1F1F] font-courier text-lg">
@@ -41,12 +41,12 @@ const Blog: FC = () => {
           </p>
         </div>
 
-        <button className="text-brand-purple font-courier text-xl hover:text-black px-4 py-3 transition-all duration-300">
+        <p className="text-brand-purple font-courier text-xl hover:text-black px-4 py-3 transition-all duration-300 cursor-pointer">
           See all
-        </button>
+        </p>
       </div>
 
-      <div className="inline-flex justify-center items-center gap-6">
+      <div className="inline-flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6">
         {blogPosts.map((blogPost, index) => (
           <BlogCard key={index} {...blogPost} />
         ))}

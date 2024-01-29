@@ -5,7 +5,7 @@ const ConnectError: FC<{
   onConnect: () => void;
 }> = ({ onConnect }) => {
   return (
-    <div className="flex w-[400px] py-4 px-6 flex-col justify-center items-center gap-6">
+    <div className="flex w-[340px] sm:w-[400px] py-4 px-6 flex-col justify-center items-center gap-6">
       <div className="flex items-center gap-4 flex-col">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const ConnectError: FC<{
         </svg>
 
         <div className="flex flex-col items-center gap-2">
-          <h3 className="w-[352px] text-2xl font-poppins text-[#212121]">
+          <h3 className="w-[340px] sm:w-[352px] text-xl text-center sm:text-2xl font-poppins text-[#212121]">
             An Unwanted Error Occurred
           </h3>
           <p className="text-[#212121] font-poppins">

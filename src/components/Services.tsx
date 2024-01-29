@@ -23,10 +23,10 @@ const Services: FC = () => {
   };
 
   return (
-    <div className="h-[698px] self-stretch border border-black bg-cream-background flex flex-col justify-end py-20 relative">
+    <div className="min-h-[698px] self-stretch border border-black bg-cream-background flex flex-col justify-end py-20 relative">
       <div className="absolute -top-[120px]">
         <div className="w-[1530px] h-[296px] shrink-0 relative">
-          <div className="absolute top-0 -left-10  inline-flex rotate-[-8.151deg]">
+          <div className="absolute -top-20 md:top-0 -left-20 md:-left-10  inline-flex rotate-[-8.151deg]">
             <Strip />
           </div>
 
@@ -35,12 +35,12 @@ const Services: FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-20">
-        <h2 className="self-stretch text-5xl text-blue-gray-900 font-poppins text-center">
+      <div className="flex flex-col items-center gap-20 px-5">
+        <h2 className="self-stretch text-[40px] md:text-5xl text-blue-gray-900 font-poppins text-center pt-20 md:pt-[150px] lg:pt-0">
           Services you get when you’re connected
         </h2>
-        <div className="flex w-[1058px] pb-7 justify-between gap-22">
-          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] ">
+        <div className="flex flex-col md:flex-row w-full lg:w-[1058px] pb-7 justify-center items-center md:justify-between gap-10 lg:gap-20">
+          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] mx-auto md:mx-0">
             <div
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]
             "
@@ -53,7 +53,7 @@ const Services: FC = () => {
             </p>
           </div>
 
-          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] ">
+          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] mx-auto md:mx-0">
             <div
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-contrast-yellow shadow-[2px_3px_0px_0px_#000]
             "
@@ -66,7 +66,7 @@ const Services: FC = () => {
             </p>
           </div>
 
-          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] ">
+          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] mx-auto md:mx-0">
             <div
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]
             "
@@ -79,7 +79,7 @@ const Services: FC = () => {
             </p>
           </div>
 
-          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] ">
+          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] mx-auto md:mx-0">
             <div
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-contrast-yellow shadow-[2px_3px_0px_0px_#000]
             "
@@ -92,7 +92,7 @@ const Services: FC = () => {
             </p>
           </div>
 
-          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] ">
+          <div className="inline-flex flex-col gap-2 h-[108px] max-w-[173.3px] self-stretch  justify-center items-center flex-[1_0_0] mx-auto md:mx-0">
             <div
               className="flex w-[64px] h-[64px] p-3 justify-center items-center shrink-0 border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]
             "

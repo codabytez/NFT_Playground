@@ -10,19 +10,19 @@ const FeaturedArt: FC = () => {
   return (
     <div
       id="discover"
-      className="flex w-[1440px] p-20 flex-col justify-center items-center gap-6 mx-auto border border-black bg-cream-background"
+      className="flex w-full max-w-[1440px] py-20 flex-col justify-center items-center gap-6 mx-auto border border-black bg-cream-background"
     >
-      <div className="flex items-center justify-between gap-6 self-stretch">
-        <h4 className="self-stretch text-5xl text-blue-gray-900 font-poppins">
+      <div className="flex flex-col px-6 lg:px-20 lg:flex-row lg:items-center justify-between gap-6 self-stretch w-full">
+        <h4 className="self-stretch text-4xl md:text-5xl text-blue-gray-900 font-poppins">
           Featured art categories
         </h4>
 
-        <button className="text-brand-purple font-courier text-xl hover:text-black px-4 py-3 transition-all duration-300">
+        <p className="text-brand-purple font-courier text-lg md:text-xl hover:text-black px-4 py-3 transition-all duration-300 cursor-pointer">
           View All Categories
-        </button>
+        </p>
       </div>
 
-      <div className="flex gap-6 self-stretch">
+      <div className="flex flex-col md:flex-row md:flex-wrap xl:flex-nowrap items-center xl:justify-between gap-6 2xl:self-stretch">
         <ArtCard src={spaceMan} />
         <ArtCard src={spaceCart} />
         <ArtCard src={cent} />

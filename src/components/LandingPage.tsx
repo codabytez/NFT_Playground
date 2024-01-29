@@ -12,7 +12,7 @@ import Strip from "./Strip";
 
 const LandingPage: FC = () => {
   return (
-    <div className="flex max-w-[1440px] flex-col bg-cream-background mx-auto overflow-x-hidden">
+    <div className="flex max-w-[1440px] flex-col bg-cream-background mx-auto overflow-x-hidden min-w-[340px]">
       <Navbar />
       <Hero />
       <Services />
