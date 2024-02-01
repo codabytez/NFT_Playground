@@ -41,7 +41,7 @@ const Blog: FC = () => {
           </p>
         </div>
 
-        <p className="text-brand-purple font-courier text-xl hover:text-black px-4 py-3 transition-all duration-300 cursor-pointer">
+        <p className="text-brand-purple font-courier text-xl hover:text-black md:px-4 md:py-3 transition-all duration-300 cursor-pointer">
           See all
         </p>
       </div>

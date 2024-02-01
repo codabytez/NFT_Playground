@@ -9,6 +9,7 @@ const ImageTrace: FC = () => {
       height="538"
       viewBox="0 0 623 538"
       fill="none"
+      className="w-[600px] sm:w-[623px]"
     >
       <mask
         id="path-1-outside-1_17_6106"

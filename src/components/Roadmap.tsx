@@ -9,23 +9,23 @@ const Roadmap: FC = () => {
       id="roadmap"
       className="flex flex-col lg:flex-row max-w-[1440px] min-h-[1004px] items-start"
     >
-      <div className="flex-1 w-full flex h-[1004px] py-[203px] sm:pr-[73px] sm:pl-[95px] lg:pl-5 lg:pr-12 xl:pr-[73px] xl:pl-[95px] flex-col justify-center lg:items-center border-black border border-l-0 bg-brand-purple">
+      <div className="flex-1 w-full flex py-28 sm:py-[203px] pl-[20px] sm:pr-[73px] lg:pl-5 lg:pr-12 xl:pr-[73px] xl:pl-[95px] flex-col justify-center items-center border-black border border-l-0 bg-brand-purple">
         <div className="flex w-full sm:w-[569px] h-[597px] lg:w-full xl:w-[569px] flex-col justify-center items-start shrink-0 relative">
-          <div className="w-full sm:w-[417px] h-[554px] border border-black absolute -right-10">
+          <div className="w-[80%] sm:w-[417px] sm:h-[554px] border border-black absolute -right-10">
             <img
               src={roadmap3}
               alt="roadmap3"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-full sm:w-[571px] h-[609px] lg:w-full xl:w-[571px] border border-black absolute -right-2 lg:-right-4 xl:-right-2">
+          <div className="w-[110%] sm:w-[571px] sm:h-[609px] lg:w-full xl:w-[571px] border border-black absolute right-3 sm:-right-2 lg:-right-4 xl:-right-2">
             <img
               src={roadmap2}
               alt="roadmap2"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-full sm:w-[550px] h-[709px] lg:w-full xl:w-[550px] border border-black absolute">
+          <div className="w-[100%] sm:w-[550px] sm:h-[709px] lg:w-full xl:w-[550px] border border-black absolute -left-10 sm:-left-0">
             <img
               src={roadmap}
               alt="roadmap"
