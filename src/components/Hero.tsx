@@ -7,7 +7,7 @@ const Hero: FC = () => {
   return (
     <div className="flex flex-col lg:flex-row pt-10">
       <div className="w-full lg:w-[653px] md:h-[729px] border-r border-b border-black bg-brand-purple flex flex-col justify-center items-center px-3 py-14 lg:py-0 md:px-0">
-        <div className="inline-flex gap-12 flex-col">
+        <div className="inline-flex gap-12 flex-col md:px-4">
           <div className="inline-flex gap-3 flex-col">
             <h1 className="lg:w-[461px] text-white mx-auto lg:mx-0 md:text-center lg:text-left font-poppins text-[64px] md:text-[78px] font-medium leading-[88px] tracking-[-1.56px]">
               Explore NFT collections from the best artists
@@ -17,7 +17,7 @@ const Hero: FC = () => {
             </p>
           </div>
           <div>
-            <div className="flex lg:w-[409px] w-[80%] mx-auto lg:mx-0 md:justify-center lg:justify-start">
+            <div className="flex lg:w-[409px] md:justify-center lg:justify-start">
               <Button variant="tertiary">Explore</Button>
             </div>
           </div>

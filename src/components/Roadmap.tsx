@@ -35,7 +35,7 @@ const Roadmap: FC = () => {
         </div>
       </div>
 
-      <div className="flex-1 flex flex-col items-start h-[1004px] pt-10 pb-[91px] pl-16 gap-10 border-y bg-contrast-yellow border-black w-full">
+      <div className="flex-1 flex flex-col items-start h-[1004px] pt-10 pb-[91px] pl-16 lg:pl-4 xl:pl-16 gap-10 border-y bg-contrast-yellow border-black w-full">
         <div className="w-[80%] lg:w-full flex flex-col items-start gap-[19px]">
           <div className="w-[58px] h-[59px] inline-flex py-3 px-4 justify-center items-center border border-black bg-brand-purple shadow-[2px_3px_0px_0px_#000]">
             <p className="text-white text-center font-mukta text-2xl font-medium">

@@ -30,7 +30,7 @@ const Services: FC = () => {
             <Strip />
           </div>
 
-          <div className="absolute top-10 right-0  inline-flex rotate-[3deg]">
+          <div className="absolute top-10 right-0 inline-flex rotate-[3deg]">
             <Strip bg="yellow" direction="right" />
           </div>
         </div>

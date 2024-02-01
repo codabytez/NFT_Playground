@@ -199,7 +199,7 @@ const ConnectAccount: FC = () => {
           </div>
 
           <div className="flex w-[340px] sm:w-[400px] items-center py-4 px-6 flex-col gap-6">
-            <div className="flex w-[352px] justify-between items-center bg-white mx-auto pb-6">
+            <div className="flex w-[320px] sm:w-[352px] justify-between items-center bg-white mx-auto pb-6">
               <p className="text-[#212121] font-mukta font-medium">
                 Select Wallet
               </p>

@@ -24,13 +24,13 @@ const Strip: FC<{
 
   return (
     <motion.div
-      className={`flex sm:py-6 select-none items-center ${
+      className={`flex py-6 select-none items-center ${
         bg === "purple" ? "bg-brand-purple" : "bg-contrast-yellow"
       } overflow-hidden`}
       variants={stripVariants}
     >
       <motion.div
-        className="flex gap-8 sm:gap-12 justify-center items-center pl-8 sm:pl-12"
+        className="flex gap-12 justify-center items-center pl-12"
         variants={stripVariants}
         initial="initial"
         animate="animate"
@@ -38,7 +38,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Creativity
         </h3>
@@ -47,7 +47,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Art
         </h3>
@@ -56,7 +56,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Profitable
         </h3>
@@ -65,7 +65,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Unique
         </h3>
@@ -74,7 +74,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Originals
         </h3>
@@ -82,7 +82,7 @@ const Strip: FC<{
       </motion.div>
 
       <motion.div
-        className="flex gap-8 sm:gap-12 justify-center items-center pl-8 sm:pl-12"
+        className="flex gap-12 justify-center items-center pl-12"
         variants={stripVariants}
         initial="initial"
         animate="animate"
@@ -90,7 +90,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Creativity
         </h3>
@@ -99,7 +99,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Art
         </h3>
@@ -108,7 +108,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Profitable
         </h3>
@@ -117,7 +117,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Unique
         </h3>
@@ -126,7 +126,7 @@ const Strip: FC<{
         <h3
           className={`font-bold ${
             bg === "purple" ? "text-contrast-yellow" : "text-brand-purple"
-          } lining-nums tabular-nums font-poppins text-lg sm:text-[40px] sm:leading-[56px] uppercase`}
+          } lining-nums tabular-nums font-poppins text-[40px] leading-[56px] uppercase`}
         >
           Originals
         </h3>
