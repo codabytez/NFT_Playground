@@ -17,12 +17,12 @@ const FeaturedArt: FC = () => {
           Featured art categories
         </h4>
 
-        <p className="text-brand-purple font-courier text-lg md:text-xl hover:text-black px-4 py-3 transition-all duration-300 cursor-pointer">
+        <p className="text-brand-purple font-courier text-lg md:text-xl hover:text-black py-3 transition-all duration-300 cursor-pointer">
           View All Categories
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row md:flex-wrap xl:flex-nowrap items-center xl:justify-between gap-6 2xl:self-stretch">
+      <div className="flex flex-col md:flex-row md:flex-wrap xl:flex-nowrap items-center justify-center xl:justify-between gap-6 2xl:self-stretch">
         <ArtCard src={spaceMan} />
         <ArtCard src={spaceCart} />
         <ArtCard src={cent} />
