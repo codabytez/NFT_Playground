@@ -21,7 +21,7 @@ const Navbar: FC = () => {
 
   return (
     <nav className="fixed w-full bg-cream-background max-w-[1440px] z-[500]">
-      <div className="h-[82px] border-b border-black flex justify-between items-center px-4 lg:px-10 max-w-[1440px]">
+      <div className="h-[82px] border-b border-black flex justify-between gap-6 items-center px-4 lg:px-10 max-w-[1440px]">
         <a href="/" className="flex items-center gap-2">
           <Logo />
           <p className="font-mukta text-2xl font-bold">Playground</p>
@@ -37,7 +37,7 @@ const Navbar: FC = () => {
           onClick={() => setIsNavbarOpen(!isNavbarOpen)}
         />
         <div
-          className={`fixed lg:relative top-[80px] lg:top-0 left-0 flex flex-col lg:gap-10 lg:flex-row h-screen lg:h-auto w-[calc(100%+20px)] lg:w-auto items-center transition-all duration-700 ${
+          className={`fixed lg:relative top-[80px] lg:top-0 left-0 flex flex-col lg:gap-10 lg:flex-row h-screen lg:h-auto w-[calc(100%+20px)] lg:full lg:justify-between items-center transition-all duration-700 ${
             isNavbarOpen
               ? "translate-y-0"
               : "-translate-y-[300%] lg:translate-y-0"
@@ -73,7 +73,7 @@ const Navbar: FC = () => {
               Community
             </a>
           </div>
-          <div className="flex bg-contrast-yellow lg:bg-transparent w-full justify-center items-center h-[45%]">
+          <div className="flex bg-contrast-yellow lg:bg-transparent w-full lg:basis-[400px] justify-center lg:justify-end items-center h-[45%]">
             <Button
               size="sm"
               onClick={() => {
